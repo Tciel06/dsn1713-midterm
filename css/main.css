@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
+
+
+
+body {
+  font-family: "Sarala", sans-serif;
+  background-color: #fff;
+  color: #212529;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather", serif;
+}
+
+
+.navbar {
+  background-color: #1f3e36;
+}
+
+.navbar-brand {
+  color: #F6F3ED;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+
+
+#hero {
+  min-height: 800px;
+  background-color: #E4E6DB;
+  background-image: url(../images/hero-bg-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#hero .btn {
+  background-color: #47624f;
+  border-color: #47624f;
+  color: #fff;
+}
+
+#hero .btn:hover {
+  background-color: #2f4a37;
+  border-color: #2f4a37;
+}
+
+
+
+#cta {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+#cta h2 {
+  font-size: 2rem;
+}
+
+#cta .btn {
+  background-color: #47624f;
+  border-color: #47624f;
+}
+
+#cta .btn:hover {
+  background-color: #2f4a37;
+  border-color: #2f4a37;
+}
+
+
+
+section:not(#hero):not(#cta) {
+  padding: 60px 0;
+}
+
+@media(min-width: 993px) {
+  section:not(#hero):not(#cta) {
+    padding: 100px 0;
+  }
+}
+
+
+section img {
+  max-width: 100%;
+  height: auto;
+}
+
+#testimonials {
+  background-color: #1f3e36;
+  color: #ffffff;
+  text-align: center;
+}
+
+#testimonials figure img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+#testimonials blockquote {
+  font-style: italic;
+  font-size: 1rem;
+  color: #f8f9fa;
+}
+
+#testimonials figcaption {
+  margin-top: 0.5rem;
+  color: #ced4da;
+  font-weight: 500;
+}
+
+
+
+.accordion-button {
+  font-weight: 600;
+  font-family: "Sarala", sans-serif;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e4e6db;
+  color: #000;
+}
+
+.accordion-body {
+  background-color: #f8f9fa;
+}
+
+
+
+.btn-success {
+  background-color: #47624f;
+  border-color: #47624f;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #2f4a37;
+  border-color: #2f4a37;
+}
+
+
+
+footer {
+  background-color: #1f3e36;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #d4d4d4;
+}
+
+footer img {
+  vertical-align: middle;
+}
